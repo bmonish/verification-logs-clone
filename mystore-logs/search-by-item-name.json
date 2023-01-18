@@ -5,11 +5,11 @@
     "city" : "std:080",
     "action" : "search",
     "core_version" : "1.0.0",
-    "bap_id" : "buyer-app-preprod.ondc.org",
-    "bap_uri" : "https://buyer-app-preprod.ondc.org/protocol/v1",
-    "transaction_id" : "4a6a3eb5-c7ea-4c2e-96b6-41af320ae289",
-    "message_id" : "e00e5509-650e-4486-a5be-1a025b29e4a9",
-    "timestamp" : "2023-01-18T09:55:32.828Z",
+    "bap_id" : "beta.mystore.in",
+    "bap_uri" : "https://beta.mystore.in/ondc/1.0/",
+    "transaction_id" : "e78404fd-2171-4f10-8fab-d5ac5f3b5662",
+    "message_id" : "7acb5d24-baae-4fd9-9fcc-50c0460258be",
+    "timestamp" : "2023-01-18T18:34:40.298Z",
     "ttl" : "PT30S"
   },
   "message" : {
@@ -19,17 +19,17 @@
         "tracking" : false,
         "end" : {
           "location" : {
-            "gps" : "12.96774,77.588913"
+            "gps" : "12.99877,77.59211"
           }
         }
       },
       "payment" : {
-        "@ondc/org/buyer_app_finder_fee_type" : "Percent",
-        "@ondc/org/buyer_app_finder_fee_amount" : "3.0"
+        "@ondc/org/buyer_app_finder_fee_type" : "percent",
+        "@ondc/org/buyer_app_finder_fee_amount" : "3"
       },
       "item" : {
         "descriptor" : {
-          "name" : "Peppy Paneer"
+          "name" : "Monish Test"
         }
       }
     }

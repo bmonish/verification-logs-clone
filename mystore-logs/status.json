@@ -5,16 +5,16 @@
     "city" : "std:080",
     "action" : "status",
     "core_version" : "1.0.0",
-    "bap_id" : "buyer-app-preprod.ondc.org",
-    "bap_uri" : "https://buyer-app-preprod.ondc.org/protocol/v1",
+    "bap_id" : "beta.mystore.in",
+    "bap_uri" : "https://beta.mystore.in/ondc/1.0/",
     "bpp_id" : "pilot-gateway-1.beckn.nsdl.co.in/preprod/seller/adaptor/ndhgo",
     "bpp_uri" : "https://pilot-gateway-1.beckn.nsdl.co.in/preprod/seller/adaptor/ndhgo",
-    "transaction_id" : "4a6a3eb5-c7ea-4c2e-96b6-41af320ae289",
-    "message_id" : "358926de-3249-4ea8-9f44-e48e0fa0c2ef",
-    "timestamp" : "2023-01-18T09:56:11.241Z",
+    "transaction_id" : "6932ae26-c707-4686-a6d1-8ef2a1c11917",
+    "message_id" : "49aa46d5-f280-454c-b259-a094d7888d02",
+    "timestamp" : "2023-01-18T18:36:06.835Z",
     "ttl" : "PT30S"
   },
   "message" : {
-    "order_id" : "2023-00-18-604609"
+    "order_id" : "63c83bfdbcbac9272a6d8b46"
   }
 }
