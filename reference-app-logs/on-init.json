@@ -1,0 +1,109 @@
+{
+  "context" : {
+    "domain" : "nic2004:52110",
+    "country" : "IND",
+    "city" : "std:080",
+    "action" : "on_init",
+    "core_version" : "1.0.0",
+    "bap_id" : "buyer-app-preprod.ondc.org",
+    "bap_uri" : "https://buyer-app-preprod.ondc.org/protocol/v1",
+    "bpp_id" : "pilot-gateway-1.beckn.nsdl.co.in/preprod/seller/adaptor/ndhgo",
+    "bpp_uri" : "https://pilot-gateway-1.beckn.nsdl.co.in/preprod/seller/adaptor/ndhgo",
+    "transaction_id" : "4a6a3eb5-c7ea-4c2e-96b6-41af320ae289",
+    "message_id" : "4fef7043-44c7-406b-8d55-4c7ddd652668",
+    "timestamp" : "2023-01-18T09:55:56.058Z",
+    "ttl" : "PT30S"
+  },
+  "message" : {
+    "order" : {
+      "provider" : {
+        "id" : "86385"
+      },
+      "items" : [ {
+        "id" : "ODYzODVfMTE1MDYyMw==",
+        "quantity" : {
+          "count" : 4
+        }
+      } ],
+      "billing" : {
+        "name" : "Monish",
+        "address" : {
+          "door" : "Vadapalani",
+          "name" : "Monish",
+          "building" : "Vadapalani",
+          "street" : "KK Nagar",
+          "city" : "Chennai",
+          "state" : "Tamil Nadu",
+          "country" : "IND",
+          "area_code" : "600089"
+        },
+        "email" : "monish.b@ndhgo.com",
+        "phone" : "9566291095"
+      },
+      "fulfillment" : {
+        "type" : "Delivery",
+        "provider_id" : "86385",
+        "tracking" : false,
+        "end" : {
+          "location" : {
+            "gps" : "13.0301480000001, 80.1795680000001",
+            "address" : {
+              "door" : "Vadapalani",
+              "name" : "Monish",
+              "building" : "Vadapalani",
+              "street" : "KK Nagar",
+              "city" : "Chennai",
+              "state" : "Tamil Nadu",
+              "country" : "IND",
+              "area_code" : "600089"
+            }
+          },
+          "contact" : {
+            "phone" : "9566291095",
+            "email" : "monish.b@ndhgo.com"
+          }
+        }
+      },
+      "quote" : {
+        "price" : {
+          "currency" : "INR",
+          "value" : "3320.00"
+        },
+        "breakup" : [ {
+          "@ondc/org/item_id" : "ODYzODVfMTE1MDYyMw==",
+          "@ondc/org/title_type" : "item",
+          "title" : "Peppy Paneer Pizza",
+          "price" : {
+            "currency" : "INR",
+            "value" : "360.00"
+          }
+        } ]
+      },
+      "payment" : {
+        "type" : "POST-FULFILLMENT",
+        "collected_by" : "BPP",
+        "@ondc/org/collected_by_status" : "Disagree",
+        "@ondc/org/buyer_app_finder_fee_type" : "Percent",
+        "@ondc/org/buyer_app_finder_fee_amount" : "3.0",
+        "@ondc/org/withholding_amount" : "10.0",
+        "@ondc/org/withholding_amount_status" : "Assert",
+        "@ondc/org/return_window" : "P3D",
+        "@ondc/org/return_window_status" : "Assert",
+        "@ondc/org/settlement_basis" : "Delivery",
+        "@ondc/org/settlement_basis_status" : "Assert",
+        "@ondc/org/settlement_window" : "P3D",
+        "@ondc/org/settlement_window_status" : "Assert",
+        "@ondc/org/settlement_details" : [ {
+          "settlement_counterparty" : "seller-app",
+          "settlement_phase" : "sale-amount",
+          "settlement_amount" : 3320,
+          "settlement_type" : "neft",
+          "settlement_bank_account_no" : "000100289877623",
+          "settlement_ifsc_code" : "SBIN0008752",
+          "bank_name" : "State Bank of India",
+          "beneficiary_address" : "JOHN DOE"
+        } ]
+      }
+    }
+  }
+}
