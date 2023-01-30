@@ -9,9 +9,9 @@
     "bap_uri" : "https://buyer-app-preprod.ondc.org/protocol/v1",
     "bpp_id" : "pilot-gateway-1.beckn.nsdl.co.in/preprod/seller/adaptor/ndhgo",
     "bpp_uri" : "https://pilot-gateway-1.beckn.nsdl.co.in/preprod/seller/adaptor/ndhgo",
-    "transaction_id" : "5511d553-ec92-4d62-9f8f-8e139929fa9c",
-    "message_id" : "ef7a8b0a-1257-44e4-92da-fea5b19605c9",
-    "timestamp" : "2023-01-30T17:32:14.897Z",
+    "transaction_id" : "b800504b-47b5-4397-a3ff-9cea19480608",
+    "message_id" : "b1135c37-5065-49ae-abf9-a851dda497b7",
+    "timestamp" : "2023-01-30T18:25:32.653Z",
     "ttl" : "PT3600S"
   },
   "message" : {
@@ -235,7 +235,7 @@
           }
         } ],
         "ttl" : "P1D",
-        "exp" : "2023-01-31T17:32:14.783Z"
+        "exp" : "2023-01-31T18:25:32.462Z"
       } ]
     }
   }
