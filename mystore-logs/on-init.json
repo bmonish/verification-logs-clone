@@ -76,7 +76,7 @@
           }
         }, {
           "@ondc/org/item_id" : "137749",
-          "@ondc/org/title_type" : "convenience charge",
+          "@ondc/org/title_type" : "misc",
           "title" : "Convenience Charges",
           "price" : {
             "currency" : "INR",
