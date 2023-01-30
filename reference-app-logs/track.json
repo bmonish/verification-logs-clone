@@ -8,12 +8,12 @@
     "bap_id" : "buyer-app-preprod.ondc.org",
     "bap_uri" : "https://buyer-app-preprod.ondc.org/protocol/v1",
     "bpp_id" : "pilot-gateway-1.beckn.nsdl.co.in/preprod/seller/adaptor/ndhgo",
-    "transaction_id" : "261590c1-520f-4ad3-8daf-11271746b339",
-    "message_id" : "4fcb22c0-4a50-4b1f-ad32-40941df21d1c",
-    "timestamp" : "2023-01-19T10:07:51.033Z",
+    "transaction_id" : "5511d553-ec92-4d62-9f8f-8e139929fa9c",
+    "message_id" : "a86751ee-4f52-43b0-bb59-f19b4c63def9",
+    "timestamp" : "2023-01-30T17:32:42.437Z",
     "ttl" : "PT30S"
   },
   "message" : {
-    "order_id" : "2023-00-19-568404"
+    "order_id" : "2023-00-30-288525"
   }
 }
