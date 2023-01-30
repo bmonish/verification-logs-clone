@@ -7,9 +7,9 @@
     "core_version" : "1.0.0",
     "bap_id" : "beta.mystore.in",
     "bap_uri" : "https://beta.mystore.in/ondc/1.0/",
-    "transaction_id" : "87a1deb5-cd8e-4554-b578-fed96ca9d68c",
-    "message_id" : "ed1e2dd6-36a3-4801-ab59-2e33eceda179",
-    "timestamp" : "2023-01-30T17:18:53.958Z",
+    "transaction_id" : "428499c5-85bc-4799-b317-0b21705610bc",
+    "message_id" : "66ed96e4-0da7-4508-aa48-00a292440560",
+    "timestamp" : "2023-01-30T18:34:49.957Z",
     "ttl" : "PT30S"
   },
   "message" : {
@@ -29,7 +29,7 @@
       },
       "item" : {
         "descriptor" : {
-          "name" : "Monish Cris"
+          "name" : "Monish Crispy"
         }
       }
     }
